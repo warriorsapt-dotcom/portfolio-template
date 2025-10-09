@@ -30,7 +30,7 @@ portfolio-template/
 ├── index.html # Main landing page (About, Skills, Contact)
 ├── projects.html # Fetches public GitHub repos automatically
 └── preview.png # Optional screenshot for README
-'''
+```
 ---
 
 ## ⚡ Quick Start
@@ -39,3 +39,4 @@ portfolio-template/
    ```bash
    git clone https://github.com/warriorsapt-dotcom/portfolio-template.git
    cd portfolio-template
+```
