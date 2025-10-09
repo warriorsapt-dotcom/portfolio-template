@@ -23,7 +23,8 @@ It’s built as a **single-page static site** with an optional **Projects page**
 ---
 
 ## 🧱 Structure
-'''
+```
+
 portfolio-template/
 │
 ├── index.html # Main landing page (About, Skills, Contact)
