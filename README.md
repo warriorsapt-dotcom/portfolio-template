@@ -21,11 +21,7 @@ It’s built as a **single-page static site** with an optional **Projects page**
 - 🎨 **Glitch & neon cursor effects** for that cyberpunk vibe
 
 ---
-portfolio-template/
-│
-├── index.html # Main landing page (About, Skills, Contact)
-├── projects.html # Fetches public GitHub repos automatically
-└── preview.png # Optional screenshot for README
+
 ## 🧱 Structure
 portfolio-template/
 │
