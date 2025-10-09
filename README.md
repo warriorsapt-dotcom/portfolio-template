@@ -24,11 +24,11 @@ It’s built as a **single-page static site** with an optional **Projects page**
 
 ## 🧱 Structure
 
-portfolio-template/
-│
-├── index.html # Main landing page (About, Skills, Contact)
-├── projects.html # Fetches public GitHub repos automatically
-└── preview.png # Optional screenshot for README
+portfolio-template/\n
+│\n
+├── index.html # Main landing page (About, Skills, Contact)\n
+├── projects.html # Fetches public GitHub repos automatically\n
+└── preview.png # Optional screenshot for README\n
 
 
 ---
