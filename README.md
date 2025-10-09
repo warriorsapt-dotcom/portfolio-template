@@ -2,7 +2,7 @@
 
 > Sleek hacker-themed portfolio built with pure HTML, CSS, and JavaScript — minimal setup, fast load, and responsive by design.
 
-![Preview Screenshot](https://raw.githubusercontent.com/warriorsapt-dotcom/portfolio-template/main/SCREENSHOT FROM.png)
+![Preview Screenshot](https://github.com/warriorsapt-dotcom/portfolio-template/blob/main/Screenshot%20From%202025-10-09%2003-38-39.png)
 
 ---
 
