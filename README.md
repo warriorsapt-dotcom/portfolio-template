@@ -21,6 +21,7 @@ It’s built as a **single-page static site** with an optional **Projects page**
 - 🎨 **Glitch & neon cursor effects** for that cyberpunk vibe
 
 ---
+Fix: proper markdown formatting for project structure
 
 ## 🧱 Structure
 portfolio-template/
@@ -37,46 +38,3 @@ portfolio-template/
    ```bash
    git clone https://github.com/warriorsapt-dotcom/portfolio-template.git
    cd portfolio-template
-
-🌐 Option 2: Deploy on GitHub Pages
-
-Go to your repo → Settings → Pages
-
-Choose main branch → / (root)
-
-Save, then visit:
-
-https://warriorsapt-dotcom.github.io/portfolio-template
-
-🧩 Customization
-Section	File	What to Edit
-Name, bio, tagline	index.html	Hero section text
-Email & social links	index.html	Contact section
-GitHub username	projects.html	Replace warriorsapt-dotcom
-Colors & theme	<style> in both files	Adjust --accent, --bg, etc.
-
-💡 Future Upgrades
-
- Add working contact form via API
-
- Add animations using GSAP or Framer Motion
-
- Convert to Next.js version
-
- Add project filtering by language/stars
-
-🧑‍💻 Author
-
-Warrior (warriorsapt-dotcom)
-
-Ethical Hacker • Developer • Cybersecurity Enthusiast
-
-GitHub: @warriorsapt-dotcom
-
-Twitter: coming soon
-
-Brand: Warriorsapt
-
-⚖️ License
-
-MIT License © 2025 Warrior
