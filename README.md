@@ -23,3 +23,19 @@ It’s built as a **single-page static site** with an optional **Projects page**
 ---
 
 ## 🧱 Structure
+
+portfolio-template/
+│
+├── index.html # Main landing page (About, Skills, Contact)
+├── projects.html # Fetches public GitHub repos automatically
+└── preview.png # Optional screenshot for README
+
+
+---
+
+## ⚡ Quick Start
+### 🖥 Option 1: Local Preview
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/warriorsapt-dotcom/portfolio-template.git
+   cd portfolio-template
