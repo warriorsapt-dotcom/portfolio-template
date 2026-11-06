@@ -1,42 +1,61 @@
-# ⚡ Warrior Portfolio Template
+# Warrior Portfolio
 
-> Sleek hacker-themed portfolio built with pure HTML, CSS, and JavaScript — minimal setup, fast load, and responsive by design.
+A developer portfolio built with HTML, CSS and vanilla JavaScript. A dark interface with neon green accents introduces the developer, highlights projects and links to public GitHub repositories.
 
-![Preview Screenshot](https://github.com/warriorsapt-dotcom/portfolio-template/blob/main/Screenshot%20From%202025-10-09%2003-38-39.png)
+![Portfolio preview](Screenshot%20From%202025-10-09%2003-38-39.png)
 
----
+## What it demonstrates
 
-## 🧠 About
-This is my personal **portfolio template** — a dark cyber aesthetic designed for developers, hackers, and tech creatives.  
-It’s built as a **single-page static site** with an optional **Projects page** that auto-fetches GitHub repositories dynamically.
+- Responsive layouts using CSS Grid, Flexbox and media queries.
+- A separate projects page that loads up to 20 public repositories from the GitHub API, ordered by recent updates.
+- Loading, empty and error states for repository requests.
+- Keyboard focus styles, contact links and small visual effects.
+- Static hosting without a package manager or build step.
 
----
+## Run locally
 
-## 🚀 Features
-- 🧩 **Single-file setup** — just upload and run  
-- 💀 **Dark hacker aesthetic** with neon green accents  
-- ⚙️ **Responsive design** (works on mobile & desktop)  
-- 🔥 **Dynamic Projects page** — fetches your latest public repos via GitHub API  
-- 💬 **Contact form (static)** — can be connected to Netlify Forms or Formspree  
-- 🎨 **Glitch & neon cursor effects** for that cyberpunk vibe
+Clone the repository and open `index.html` in your browser:
 
----
-
-## 🧱 Structure
+```sh
+git clone https://github.com/warriorsapt-dotcom/portfolio-template.git
+cd portfolio-template
 ```
 
-portfolio-template/
-│
-├── index.html # Main landing page (About, Skills, Contact)
-├── projects.html # Fetches public GitHub repos automatically
-└── preview.png # Optional screenshot for README
-```
----
+For a local HTTP preview, run this from the repository directory with Python 3 installed:
 
-## ⚡ Quick Start
-### 🖥 Option 1: Local Preview
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/warriorsapt-dotcom/portfolio-template.git
-   cd portfolio-template
+```sh
+python -m http.server 8000
 ```
+
+Open http://localhost:8000. The projects page requires internet access to reach GitHub.
+
+## Customize
+
+| File | What to change |
+| --- | --- |
+| `index.html` | Introduction, skills, featured projects, contact details and social links |
+| `index.html` → `:root` | Background, accent and text colors |
+| `projects.html` → `const user` | GitHub username used to load repositories |
+
+Replace the sample project links and placeholder footer links before using the template as your own portfolio.
+
+## Contact form behavior
+
+The form currently validates input and **simulates a successful submission** with a timer. It does not deliver messages. Use the email link for contact, or replace `handleForm` with a real submission integration before offering the form to visitors.
+
+## Deploy
+
+Upload the repository's static files to a static web host. Keep `index.html` and `projects.html` in the same directory; no build command is needed. For GitHub Pages, configure deployment from the `main` branch and repository root in the repository's Pages settings.
+
+## Repository layout
+
+```text
+index.html                              Landing page, styles and interactions
+projects.html                           Public GitHub repository browser
+Screenshot From 2025-10-09 03-38-39.png  Portfolio preview
+LICENSE                                 MIT license
+```
+
+## License
+
+[MIT](LICENSE).
